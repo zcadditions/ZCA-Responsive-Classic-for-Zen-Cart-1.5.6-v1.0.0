@@ -1,0 +1,101 @@
+/**
+ * Main CSS Stylesheet
+ *
+ * zca_diy_tpl 1.0.0
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version ZCA/GIT: $Id: rbarbour (zcadditions.com) New for v1.5.6 $
+ */
+
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+[role="button"] {
+    color: inherit;
+    cursor: default;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    white-space: pre;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+}
+
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    border: 2px solid;
+    height: 2.5rem;
+    line-height: 2.5;
+    margin: 0.25rem;
+    padding: 0 0.7rem;
+    cursor: pointer;
+}
+
+[role="button"] .btn-block,
+input[type="submit"] .btn-block,
+input[type="reset"] .btn-block,
+input[type="button"] .btn-block,
+button .btn-block {
+  display: block;
+  width: 100% !important;
+}
+
+.pagination [role="button"] {
+    margin: 0.25rem 0 !important;
+}
+
+.pagination [role="button"] {
+    border-right: 0 !important;
+}
+
+.pagination-next [role="button"] {
+    border-right: 2px solid !important;
+}
+
+.pagination .current {
+    border: 2px solid;
+    border-right: 0 !important;    
+    height: 2.5rem;
+    line-height: 2.5;
+    margin: 0.25rem;
+    padding: 0 0.7rem !important;
+    cursor: default;
+}

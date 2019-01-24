@@ -1,0 +1,267 @@
+/**
+ * Main CSS Stylesheet
+ *
+ * zca_diy_tpl 1.0.0
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version ZCA/GIT: $Id: rbarbour (zcadditions.com) New for v1.5.6 $
+ */
+
+/* BUTTONS */
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #17233c;
+}
+
+[role="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button {
+    color: #fff;
+    background-color: #23355b;
+}
+
+.pagination-next [role="button"] {
+    border-right-color: #17233c !important;;
+}
+
+.pagination .current {
+    border-color: #17233c;
+}
+
+body {
+    color: #000;
+    background-color: #fff;
+}
+
+a {
+  color: #3b5998;
+}
+
+a:hover {
+  color: #23355b;
+}
+
+fieldset {
+  background-color: #d7ddea;
+}
+
+legend {
+  background-color: #627aac;
+}
+
+fieldset fieldset legend {
+  color: #627aac;
+  background-color: transparent;
+}
+
+input[type=text], input[type=tel], input[type=email], input[type=password], select, textarea {
+  border-color: #17233c; 
+}
+
+/* UL/LI LISTS */
+.list-group {
+  border-bottom-color: #ebeef4;
+}
+
+.list-group-item {
+  border-bottom-color: #ebeef4;
+}
+
+
+.list-group-item:first-child {
+  border-top-color: #ebeef4;
+}
+
+/* BORDERS */
+.border { border-color: #ebeef4; }
+.border-top { border-top-color: #ebeef4; }
+.border-right { border-right-color: #ebeef4; }
+.border-bottom { border-bottom-color: #ebeef4; }
+.border-left { border-left-color: #ebeef4; }
+
+/* TABLES */
+table th,
+table td { border-top: #dee2e6; }
+table thead th { border-bottom:  #dee2e6; }
+table tbody + tbody { border-top: #dee2e6; }
+table table { background-color: #fff; }
+
+table th { color:#fff; background: #3b5998; }
+
+table tr:nth-child(even) { background: #9daccb; }
+table tr:nth-child(odd) { background: #c4cde0; }
+
+/* HEADER */
+#headerWrapper {
+    color: #000;
+    background-color: #fff;
+}
+
+#navMainWrapper {
+    background-color: #0b111e;
+}
+
+#navMain a {
+    color: #fff;
+}
+
+#navCatTabsWrapper {
+    background-color: #758ab6;
+}
+
+#navCatTabs li:hover {
+    background-color: #23355b;
+}
+
+#navCatTabs li a {
+    color: #fff; 
+}
+
+#navEZPagesTop {
+    background-color: #2f4779;
+}
+
+#navEZPagesTop li:hover {
+    background-color: #23355b;
+}
+
+#navEZPagesTop li a {
+    color: #fff; 
+}
+
+/* MESSAGESTACKS & ALERTS */
+.alert {
+    color:#ff0000;
+}
+
+.messageStackWarning, .messageStackError, .messageStackSuccess, .messageStackCaution {
+	border-color: #999;
+	}
+
+.messageStackWarning, .messageStackError {
+	background-color: #ff0000;
+	color: #ffffff;
+	}
+
+.messageStackSuccess {
+	background-color: #99FF99;
+	color: #000000;
+	}
+
+.messageStackCaution {
+	background-color: #FFFF66;
+	color: #000000;
+	}
+
+/* PLACEHOLDERS */
+::-webkit-input-placeholder { color: #ff0000; }
+::-moz-placeholder { color: #ff0000; }
+:-ms-input-placeholder { color: #ff0000; }
+:-moz-placeholder { color: #ff0000; }
+
+
+/* BREADCRUMBS */
+#navBreadCrumb {
+    background-color: #ebeef4;
+}
+
+/* LISTING PAGES */
+.indexProductListFilerWrapper {
+    color: #fff;
+    background-color: #05080f;
+}
+
+.productsListingPaginationWrapper-top, .productsListingPaginationWrapper-bottom {
+    color: #fff;
+    background-color:  #17233c;
+}
+
+.productListing-heading {
+    color: #fff;
+    background-color:  #293e6a;
+}
+
+.productListing-odd {
+    background-color:  #9daccb;
+}
+
+.productListing-even {
+    background-color:  #c4cde0;
+}
+
+.productListing-odd:hover, .productListing-even:hover {
+    background-color: #ebeef4;
+}
+
+.centerBoxContentsListing:hover  {
+    background-color: #ebeef4;
+}
+
+/* PRODUCT INFO PAGES */
+.optionName {
+    color: #2f4779;
+} 
+
+#productAttributes  {
+    background-color: #ebeef4;
+}
+
+/* CENTERBOXES */
+.centerBoxHeading, #upcomingProducts-legend {
+    color: #fff;
+    background-color: #111a2d;
+}
+
+fieldset#upcomingProducts {
+    border-color: #dee2e6;
+}
+
+.centerBoxContentsNew:hover, .centerBoxContentsFeatured:hover, .centerBoxContentsSpecials:hover  {
+    background-color: #ebeef4;
+}
+
+/* SIDEBOXES */
+.leftBoxHeading, .rightBoxHeading, .leftBoxHeading a, .rightBoxHeading a {
+    color: #fff;
+    background-color: #111a2d;
+}
+
+.sideBoxContent li:hover, .sideBoxContentItem:hover {
+    background-color: #ebeef4;  
+}
+
+/* FOOTER */
+#footerWrapper {
+    background-color: #758ab6;
+}
+
+#footerWrapper li:hover {
+    background-color: #23355b;
+}
+
+#footerWrapper a {
+    color: #fff; 
+}
+
+#navSupp {
+    background-color: #2f4779;
+}
+
+#navSupp li:hover {
+    background-color: #23355b;
+}
+
+#navSupp li a {
+    color: #fff; 
+}
+

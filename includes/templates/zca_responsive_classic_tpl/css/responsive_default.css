@@ -1,0 +1,128 @@
+/**
+ *
+ *
+ * zca_diy_tpl 1.0.0
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version ZCA/GIT: $Id: rbarbour (zcadditions.com) New for v1.5.6 $
+ *
+ */
+
+/** Small devices */
+@media (min-width:0) and (max-width:480px) {
+/* LAYOUT GRID */
+/* --------------------------------------------------- */
+.layout { width:100%; } 
+.layout>[class*="columns"] { float:none; display:block; width:auto; margin:0px; clear:both; } .layout>.columns12, .layout>.columns11, .layout>.columns10, .layout>.columns9, .layout>.columns8, .layout>.columns7, .layout>.columns6, .layout>.columns5, .layout>.columns4, .layout>.columns3, .layout>.columns2, .layout>.columns1 { width:100%; }
+
+#mainWrapper.layout { margin-top:3rem; }
+#asideLeftWrapper { padding-left:0; }
+#sectionWrapper { padding:0 0.5em; }
+#asideRightWrapper { padding-right:0; }
+
+/* COLUMNAR BLOCKS */
+/* --------------------------------------------------- */
+.blocks { width:100%!important; zoom:1; display:table;}
+.blocks>[class*="columns"] { float:left; display:table-cell; margin:0; padding:25px 10px; }
+.blocks>.columns10 { width:10.00%; }
+.blocks>.columns9  { width:11.11%; }
+.blocks>.columns8  { width:12.50%; }
+.blocks>.columns7  { width:14.29%; }
+.blocks>.columns6  { width:16.66%; }
+.blocks>.columns5  { width:20.00%; }
+.blocks>.columns4  { width:25.00%; }
+.blocks>.columns3  { width:33.33%; }
+.blocks>.columns2  { width:50.00%; }
+.blocks>.columns1  { width:100.00%;}
+
+/* TABLES  */
+/* --------------------------------------------------- */
+/* PAGE = index&cPath  */
+#productListing table,
+#productListing thead,
+#productListing tbody,
+#productListing th,
+#productListing td,
+#productListing tr { display: block; }
+#productListing tr.productListing-rowheading { display:none; }
+#productListing tr.productListing-odd,
+#productListing tr.productListing-even
+{ width:100%; float:left; height:auto; text-align:center; }  
+    
+}
+
+/** Medium devices */
+@media (min-width:481px) and (max-width:767px) {
+/* LAYOUT GRID */
+/* --------------------------------------------------- */
+.layout { width:100%; } 
+.layout>[class*="columns"] { float:none; display:block; width:auto; margin:0px; clear:both; }
+.layout>.columns12, .layout>.columns11, .layout>.columns10, .layout>.columns9, .layout>.columns8, .layout>.columns7, .layout>.columns6, 
+.layout>.columns5, .layout>.columns4, .layout>.columns3, .layout>.columns2, .layout>.columns1 
+{ width:100%; }
+
+#mainWrapper.layout { margin-top:3rem; }
+#asideLeftWrapper { padding-left:0; }
+#sectionWrapper { padding:0 0.5em; }
+#asideRightWrapper { padding-right:0; }
+
+/* COLUMNAR BLOCKS */
+/* --------------------------------------------------- */
+.blocks { width:100%!important; zoom:1; display:table;}
+.blocks>[class*="columns"] { float:left; display:table-cell; margin:0; padding:25px 10px; }
+.blocks>.columns10 { width:10.00%; }
+.blocks>.columns9  { width:11.11%; }
+.blocks>.columns8  { width:12.50%; }
+.blocks>.columns7  { width:14.29%; }
+.blocks>.columns6  { width:16.66%; }
+.blocks>.columns5  { width:20.00%; }
+.blocks>.columns4  { width:25.00%; }
+.blocks>.columns3  { width:33.33%; }
+.blocks>.columns2  { width:50.00%; }
+.blocks>.columns1  { width:100.00%;}   
+    
+}
+
+/** Large devices  */
+@media (min-width:768px) and (max-width:2400px) {
+/* LAYOUT GRID */
+/* ----------------------------------------------------------------------------- */
+.layout { width:100%!important; zoom:1; display:table; }
+.layout>[class*="columns"] { float:left; display:table-cell; margin:0; padding:0; }
+
+.layout>.columns12 { width: 100%; }
+.layout>.columns11 { width: 91.66%; }
+.layout>.columns10 { width: 83.33%; }
+.layout>.columns9 { width: 75%; }
+.layout>.columns8 { width: 66.66%; }
+.layout>.columns7 { width: 58.33%; }
+.layout>.columns6 { width: 50%; }
+.layout>.columns5 { width: 41.66%; }
+.layout>.columns4 { width: 33.33%; }
+.layout>.columns3 { width: 25%; }
+.layout>.columns2 { width: 16.66%; }
+.layout>.columns1 { width: 8.333%; }
+
+#asideLeftWrapper { margin-top:0.5rem;padding-left:0.5em; }
+#sectionWrapper { margin-top:0.5rem;padding:0 0.5em; }
+#asideRightWrapper { margin-top:0.5rem;padding-right:0.5em; }
+
+/* COLUMNAR BLOCKS */
+/* ----------------------------------------------------------------------------- */
+.blocks { width:100%!important; zoom:1; display:table;}
+.blocks>[class*="columns"] { float:left; display:table-cell; margin:0; padding:25px 10px; }
+.blocks>.columns10 { width:10.00%; }
+.blocks>.columns9  { width:11.11%; }
+.blocks>.columns8  { width:12.50%; }
+.blocks>.columns7  { width:14.29%; }
+.blocks>.columns6  { width:16.66%; }
+.blocks>.columns5  { width:20.00%; }
+.blocks>.columns4  { width:25.00%; }
+.blocks>.columns3  { width:33.33%; }
+.blocks>.columns2  { width:50.00%; }
+.blocks>.columns1  { width:100.00%;}  
+    
+}

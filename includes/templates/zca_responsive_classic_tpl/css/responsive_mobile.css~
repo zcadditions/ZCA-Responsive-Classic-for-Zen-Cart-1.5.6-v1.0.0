@@ -1,0 +1,129 @@
+/**
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2007 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version ZCA/GIT: $Id: rbarbour (zcadditions.com) New for v1.5.6 $
+ *
+ */
+
+/* ALL MOBILE PHONES - ORIENTATION:LANDSCAPE */
+@media only screen and (orientation:landscape) {
+/*  DEVICE DISPLAY */
+/* ----------------------------------------------------------------------------- */
+.mobileHide { display:none; }
+
+#asideLeftWrapper { padding-left:0; }
+#sectionWrapper { padding:0 0.5em; }
+#asideRightWrapper { padding-right:0; }
+
+#logoWrapper { margin-top :2rem; }
+
+/* LAYOUT GRID */
+/* ----------------------------------------------------------------------------- */
+.layout { width:100%; } 
+.layout>[class*="columns"] { float:none; display:block; width:auto; margin:0px; clear:both; } .layout>.columns12, .layout>.columns11, .layout>.columns10, .layout>.columns9, .layout>.columns8, .layout>.columns7, .layout>.columns6, .layout>.columns5, .layout>.columns4, .layout>.columns3, .layout>.columns2, .layout>.columns1 { width:100%; }
+
+.layout>.columns12-sm { width: 100%; }
+.layout>.columns11-sm { width: 91.66%; }
+.layout>.columns10-sm { width: 83.33%; }
+.layout>.columns9-sm { width: 75%; }
+.layout>.columns8-sm { width: 66.66%; }
+.layout>.columns7-sm { width: 58.33%; }
+.layout>.columns6-sm { width: 50%; }
+.layout>.columns5-sm { width: 41.66%; }
+.layout>.columns4-sm { width: 33.33%; }
+.layout>.columns3-sm { width: 25%; }
+.layout>.columns2-sm { width: 16.66%; }
+.layout>.columns1-sm { width: 8.333%; }
+
+/* COLUMNAR BLOCKS */
+/* ----------------------------------------------------------------------------- */
+.blocks { width:100%!important; zoom:1; }
+.blocks:before, .blocks:after { display:table; content:""; }
+.blocks:after { clear:both; }
+.blocks>[class*="columns"] { float:left; display:table-cell; margin:0; padding:25px 10px; }
+.blocks>.columns10 { width:10.00%; }
+.blocks>.columns9  { width:11.11%; }
+.blocks>.columns8  { width:12.50%; }
+.blocks>.columns7  { width:14.29%; }
+.blocks>.columns6  { width:16.66%; }
+.blocks>.columns5  { width:20.00%; }
+.blocks>.columns4  { width:25.00%; }
+.blocks>.columns3  { width:33.33%; }
+.blocks>.columns2  { width:50.00%; }
+.blocks>.columns1  { width:100.00%;}
+
+/* PAGE = index&cPath  */
+#productListing table,
+#productListing thead,
+#productListing tbody,
+#productListing th,
+#productListing td,
+#productListing tr { display: block; }
+#productListing tr.productListing-rowheading { display:none; }
+#productListing tr.productListing-odd,
+#productListing tr.productListing-even
+{ width:100%; float:left; height:auto; text-align:center; }
+}
+
+/* ALL MOBILE PHONES - ORIENTATION:PORTRAIT */
+@media only screen and (orientation:portrait) {
+/*  DEVICE DISPLAY */
+/* ----------------------------------------------------------------------------- */
+.mobileHide { display:none; }
+
+#asideLeftWrapper { padding-left:0; }
+#sectionWrapper { padding:0 0.5em; }
+#asideRightWrapper { padding-right:0; }
+
+#logoWrapper { margin-top :2rem; }
+
+/* LAYOUT GRID */
+/* ----------------------------------------------------------------------------- */
+.layout { width:100%; } 
+.layout>[class*="columns"] { float:none; display:block; width:auto; margin:0px; clear:both; } .layout>.columns12, .layout>.columns11, .layout>.columns10, .layout>.columns9, .layout>.columns8, .layout>.columns7, .layout>.columns6, .layout>.columns5, .layout>.columns4, .layout>.columns3, .layout>.columns2, .layout>.columns1 { width:100%; }
+
+.layout>.columns12-sm { width: 100%; }
+.layout>.columns11-sm { width: 91.66%; }
+.layout>.columns10-sm { width: 83.33%; }
+.layout>.columns9-sm { width: 75%; }
+.layout>.columns8-sm { width: 66.66%; }
+.layout>.columns7-sm { width: 58.33%; }
+.layout>.columns6-sm { width: 50%; }
+.layout>.columns5-sm { width: 41.66%; }
+.layout>.columns4-sm { width: 33.33%; }
+.layout>.columns3-sm { width: 25%; }
+.layout>.columns2-sm { width: 16.66%; }
+.layout>.columns1-sm { width: 8.333%; }
+
+/* COLUMNAR BLOCKS */
+/* ----------------------------------------------------------------------------- */
+.blocks { width:100%!important; zoom:1; }
+.blocks:before, .blocks:after { display:table; content:""; }
+.blocks:after { clear:both; }
+.blocks>[class*="columns"] { float:left; display:table-cell; margin:0; padding:25px 10px; }
+.blocks>.columns10 { width:10.00%; }
+.blocks>.columns9  { width:11.11%; }
+.blocks>.columns8  { width:12.50%; }
+.blocks>.columns7  { width:14.29%; }
+.blocks>.columns6  { width:16.66%; }
+.blocks>.columns5  { width:20.00%; }
+.blocks>.columns4  { width:25.00%; }
+.blocks>.columns3  { width:33.33%; }
+.blocks>.columns2  { width:50.00%; }
+.blocks>.columns1  { width:100.00%;}
+
+/* PAGE = index&cPath  */
+#productListing table,
+#productListing thead,
+#productListing tbody,
+#productListing th,
+#productListing td,
+#productListing tr { display: block; }
+#productListing tr.productListing-rowheading { display:none; }
+#productListing tr.productListing-odd,
+#productListing tr.productListing-even
+{ width:100%; float:left; height:auto; text-align:center; }
+}
