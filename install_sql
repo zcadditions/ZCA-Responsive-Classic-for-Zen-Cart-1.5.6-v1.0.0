@@ -1,0 +1,5 @@
+ALTER TABLE layout_boxes DROP COLUMN show_box_min_width;
+ALTER TABLE layout_boxes DROP COLUMN layout_box_status_mobile;
+ALTER TABLE layout_boxes DROP COLUMN layout_box_status_tablet;
+ALTER TABLE layout_boxes ADD layout_box_status_mobile TINYINT( 1 ) NOT NULL DEFAULT '1' AFTER layout_box_status_single;
+ALTER TABLE layout_boxes ADD layout_box_status_tablet TINYINT( 1 ) NOT NULL DEFAULT '1' AFTER layout_box_status_mobile;
