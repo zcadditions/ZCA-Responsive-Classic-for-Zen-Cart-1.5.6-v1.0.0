@@ -314,17 +314,17 @@ if (zen_is_superuser()) {
     // Next, alter the layout_boxes table and add 2 new fields
     //
 
-		$db->Execute(
-		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " DROP COLUMN layout_box_status_mobile");
+//		$db->Execute(
+//		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " DROP COLUMN layout_box_status_mobile");
 		
-		$db->Execute(
-		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " DROP COLUMN layout_box_status_tablet");		
+//		$db->Execute(
+//		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " DROP COLUMN layout_box_status_tablet");		
 		
-		$db->Execute(
-		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " ADD COLUMN layout_box_status_mobile TINYINT(1) NOT NULL default '1' after layout_box_status_single");
+//		$db->Execute(
+//		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " ADD COLUMN layout_box_status_mobile TINYINT(1) NOT NULL default '1' after layout_box_status_single");
 		
-		$db->Execute(
-		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " ADD COLUMN layout_box_status_tablet TINYINT(1) NOT NULL default '1' after layout_box_status_mobile");
+//		$db->Execute(
+//		"ALTER TABLE " . TABLE_LAYOUT_BOXES . " ADD COLUMN layout_box_status_tablet TINYINT(1) NOT NULL default '1' after layout_box_status_mobile");
 		
 // -----
 // If the current template has just been CHANGED to the ZCA Responsive Classic (or a clone), ensure that the
